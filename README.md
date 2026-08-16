@@ -63,8 +63,6 @@ You can create multiple fake remotes with different detection scores:
 ```lua
 Honeypot:CreateMultiple({
 	GetServerInventory = 100,
-	RequestAdminData = 100,
-	ClientSaveInventory = 50,
 	SyncServerData = 50,
 })
 ```
